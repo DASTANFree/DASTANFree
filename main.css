@@ -1,0 +1,93 @@
+@media (min-width: 576px) { 
+
+ }
+
+H1 {
+ 
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: left;
+}
+P {
+  padding-left: 0px;
+}
+.container-fluid {
+	background-color: rgb(133,219,86);
+  padding-left: 10px;
+
+ 
+}
+.my-class {
+  background-color: #eeebf9;
+  height: 5px;
+}
+.my-class2 {
+  background-color: #eeebf9;
+  height: 2px;
+} 
+.my-class3 {
+  background-color: #eeebf9;
+  height: 300px;
+}
+.ashyq {
+  font-family: "Roboto";
+  padding-left: 70px;
+  margin-top: 0px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btn-primary {
+  border-radius: 0px !important;
+  background-color: #0888d3 !important;
+  font-size: 8px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px; 
+
+}
+.container {
+  text-align: left;
+  padding-top: 80px;
+}
+.container pt-3 {
+  background-color: rgb(255,255,255);
+}
+img {
+  width: 7%;
+}
+.container pt-3 my-3 border {
+  margin-top: 3px;
+}
+.my-class {
+  background-color: #eeebf9;
+}
+#blink {
+  -webkit-animation: blink1 1s linear infinite;
+  animation: blink1 1s linear infinite;
+}
+@-webkit-keyframes blink1 {
+  0% { color: rgb(133, 219, 86); }
+  50% { color: rgb(255, 255, 255); }
+  100% { color: rgb(133, 219, 86); }
+}
+@keyframes blink1 {
+  0% { color: rgb(133, 219, 86); }
+  50% { color: rgb(255, 255,  255); }
+  100% { color: rgb(133, 219, 86); }
+}
+input,textarea {
+outline: none;
+border: none;
+border: solid 0px #f2f2f2;
+
+}
+.intro {
+	padding-top: 3px;
+	padding-left: 10px;
+ 
+}
+.iin {
+	margin: 0px;
+	font-size: 8px;
+}
